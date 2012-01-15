@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2B0841714C0827100DBFE2F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B0841614C0827100DBFE2F /* QuartzCore.framework */; };
+		F2D0894E14BF4A6D001F2212 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D0894D14BF4A6D001F2212 /* UIKit.framework */; };
+		F2D0895014BF4A6D001F2212 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D0894F14BF4A6D001F2212 /* Foundation.framework */; };
+		F2D0895214BF4A6D001F2212 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D0895114BF4A6D001F2212 /* CoreGraphics.framework */; };
+		F2D0895814BF4A6D001F2212 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2D0895614BF4A6D001F2212 /* InfoPlist.strings */; };
+		F2D0895A14BF4A6D001F2212 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D0895914BF4A6D001F2212 /* main.m */; };
+		F2D0895E14BF4A6D001F2212 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D0895D14BF4A6D001F2212 /* AppDelegate.m */; };
+		F2D0896114BF4A6D001F2212 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D0896014BF4A6D001F2212 /* ViewController.m */; };
+		F2D0896414BF4A6D001F2212 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2D0896214BF4A6D001F2212 /* ViewController.xib */; };
+		F2D0896C14BF4A6E001F2212 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D0896B14BF4A6E001F2212 /* SenTestingKit.framework */; };
+		F2D0896D14BF4A6E001F2212 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D0894D14BF4A6D001F2212 /* UIKit.framework */; };
+		F2D0896E14BF4A6E001F2212 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D0894F14BF4A6D001F2212 /* Foundation.framework */; };
+		F2D0897614BF4A6E001F2212 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2D0897414BF4A6E001F2212 /* InfoPlist.strings */; };
+		F2D0897914BF4A6E001F2212 /* MoonLanderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D0897814BF4A6E001F2212 /* MoonLanderTests.m */; };
+		F2D0898514BF5E59001F2212 /* earth-from-space-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D0898414BF5E59001F2212 /* earth-from-space-1.png */; };
+		F2D0898A14BF64C2001F2212 /* Mond.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D0898914BF64C2001F2212 /* Mond.png */; };
+		F2D0898C14BF68E3001F2212 /* Lander.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D0898B14BF68E3001F2212 /* Lander.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2D0896F14BF4A6E001F2212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2D0894014BF4A6D001F2212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2D0894814BF4A6D001F2212;
+			remoteInfo = MoonLander;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2B0841614C0827100DBFE2F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F2D0894914BF4A6D001F2212 /* MoonLander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoonLander.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D0894D14BF4A6D001F2212 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2D0894F14BF4A6D001F2212 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2D0895114BF4A6D001F2212 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2D0895514BF4A6D001F2212 /* MoonLander-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoonLander-Info.plist"; sourceTree = "<group>"; };
+		F2D0895714BF4A6D001F2212 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2D0895914BF4A6D001F2212 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2D0895B14BF4A6D001F2212 /* MoonLander-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoonLander-Prefix.pch"; sourceTree = "<group>"; };
+		F2D0895C14BF4A6D001F2212 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2D0895D14BF4A6D001F2212 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2D0895F14BF4A6D001F2212 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F2D0896014BF4A6D001F2212 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2D0896314BF4A6D001F2212 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		F2D0896A14BF4A6E001F2212 /* MoonLanderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoonLanderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D0896B14BF4A6E001F2212 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F2D0897314BF4A6E001F2212 /* MoonLanderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoonLanderTests-Info.plist"; sourceTree = "<group>"; };
+		F2D0897514BF4A6E001F2212 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2D0897714BF4A6E001F2212 /* MoonLanderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoonLanderTests.h; sourceTree = "<group>"; };
+		F2D0897814BF4A6E001F2212 /* MoonLanderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoonLanderTests.m; sourceTree = "<group>"; };
+		F2D0898414BF5E59001F2212 /* earth-from-space-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "earth-from-space-1.png"; sourceTree = "<group>"; };
+		F2D0898914BF64C2001F2212 /* Mond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mond.png; sourceTree = "<group>"; };
+		F2D0898B14BF68E3001F2212 /* Lander.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lander.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2D0894614BF4A6D001F2212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B0841714C0827100DBFE2F /* QuartzCore.framework in Frameworks */,
+				F2D0894E14BF4A6D001F2212 /* UIKit.framework in Frameworks */,
+				F2D0895014BF4A6D001F2212 /* Foundation.framework in Frameworks */,
+				F2D0895214BF4A6D001F2212 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D0896614BF4A6E001F2212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D0896C14BF4A6E001F2212 /* SenTestingKit.framework in Frameworks */,
+				F2D0896D14BF4A6E001F2212 /* UIKit.framework in Frameworks */,
+				F2D0896E14BF4A6E001F2212 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2D0893E14BF4A6D001F2212 = {
+			isa = PBXGroup;
+			children = (
+				F2B0841614C0827100DBFE2F /* QuartzCore.framework */,
+				F2D0895314BF4A6D001F2212 /* MoonLander */,
+				F2D0897114BF4A6E001F2212 /* MoonLanderTests */,
+				F2D0894C14BF4A6D001F2212 /* Frameworks */,
+				F2D0894A14BF4A6D001F2212 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2D0894A14BF4A6D001F2212 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2D0894914BF4A6D001F2212 /* MoonLander.app */,
+				F2D0896A14BF4A6E001F2212 /* MoonLanderTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2D0894C14BF4A6D001F2212 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2D0894D14BF4A6D001F2212 /* UIKit.framework */,
+				F2D0894F14BF4A6D001F2212 /* Foundation.framework */,
+				F2D0895114BF4A6D001F2212 /* CoreGraphics.framework */,
+				F2D0896B14BF4A6E001F2212 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2D0895314BF4A6D001F2212 /* MoonLander */ = {
+			isa = PBXGroup;
+			children = (
+				F2D0895C14BF4A6D001F2212 /* AppDelegate.h */,
+				F2D0895D14BF4A6D001F2212 /* AppDelegate.m */,
+				F2D0895F14BF4A6D001F2212 /* ViewController.h */,
+				F2D0896014BF4A6D001F2212 /* ViewController.m */,
+				F2D0896214BF4A6D001F2212 /* ViewController.xib */,
+				F2D0895414BF4A6D001F2212 /* Supporting Files */,
+			);
+			path = MoonLander;
+			sourceTree = "<group>";
+		};
+		F2D0895414BF4A6D001F2212 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2D0898B14BF68E3001F2212 /* Lander.png */,
+				F2D0898914BF64C2001F2212 /* Mond.png */,
+				F2D0898414BF5E59001F2212 /* earth-from-space-1.png */,
+				F2D0895514BF4A6D001F2212 /* MoonLander-Info.plist */,
+				F2D0895614BF4A6D001F2212 /* InfoPlist.strings */,
+				F2D0895914BF4A6D001F2212 /* main.m */,
+				F2D0895B14BF4A6D001F2212 /* MoonLander-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2D0897114BF4A6E001F2212 /* MoonLanderTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2D0897714BF4A6E001F2212 /* MoonLanderTests.h */,
+				F2D0897814BF4A6E001F2212 /* MoonLanderTests.m */,
+				F2D0897214BF4A6E001F2212 /* Supporting Files */,
+			);
+			path = MoonLanderTests;
+			sourceTree = "<group>";
+		};
+		F2D0897214BF4A6E001F2212 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2D0897314BF4A6E001F2212 /* MoonLanderTests-Info.plist */,
+				F2D0897414BF4A6E001F2212 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2D0894814BF4A6D001F2212 /* MoonLander */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2D0897C14BF4A6E001F2212 /* Build configuration list for PBXNativeTarget "MoonLander" */;
+			buildPhases = (
+				F2D0894514BF4A6D001F2212 /* Sources */,
+				F2D0894614BF4A6D001F2212 /* Frameworks */,
+				F2D0894714BF4A6D001F2212 /* Resources */,
+				F2D0898614BF6104001F2212 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoonLander;
+			productName = MoonLander;
+			productReference = F2D0894914BF4A6D001F2212 /* MoonLander.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2D0896914BF4A6E001F2212 /* MoonLanderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2D0897F14BF4A6E001F2212 /* Build configuration list for PBXNativeTarget "MoonLanderTests" */;
+			buildPhases = (
+				F2D0896514BF4A6E001F2212 /* Sources */,
+				F2D0896614BF4A6E001F2212 /* Frameworks */,
+				F2D0896714BF4A6E001F2212 /* Resources */,
+				F2D0896814BF4A6E001F2212 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2D0897014BF4A6E001F2212 /* PBXTargetDependency */,
+			);
+			name = MoonLanderTests;
+			productName = MoonLanderTests;
+			productReference = F2D0896A14BF4A6E001F2212 /* MoonLanderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2D0894014BF4A6D001F2212 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F2D0894314BF4A6D001F2212 /* Build configuration list for PBXProject "MoonLander" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F2D0893E14BF4A6D001F2212;
+			productRefGroup = F2D0894A14BF4A6D001F2212 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2D0894814BF4A6D001F2212 /* MoonLander */,
+				F2D0896914BF4A6E001F2212 /* MoonLanderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2D0894714BF4A6D001F2212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D0895814BF4A6D001F2212 /* InfoPlist.strings in Resources */,
+				F2D0896414BF4A6D001F2212 /* ViewController.xib in Resources */,
+				F2D0898514BF5E59001F2212 /* earth-from-space-1.png in Resources */,
+				F2D0898A14BF64C2001F2212 /* Mond.png in Resources */,
+				F2D0898C14BF68E3001F2212 /* Lander.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D0896714BF4A6E001F2212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D0897614BF4A6E001F2212 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F2D0896814BF4A6E001F2212 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		F2D0898614BF6104001F2212 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ]; then\n/Developer/iphoneentitlements401/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2D0894514BF4A6D001F2212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D0895A14BF4A6D001F2212 /* main.m in Sources */,
+				F2D0895E14BF4A6D001F2212 /* AppDelegate.m in Sources */,
+				F2D0896114BF4A6D001F2212 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D0896514BF4A6E001F2212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D0897914BF4A6E001F2212 /* MoonLanderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2D0897014BF4A6E001F2212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2D0894814BF4A6D001F2212 /* MoonLander */;
+			targetProxy = F2D0896F14BF4A6E001F2212 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2D0895614BF4A6D001F2212 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2D0895714BF4A6D001F2212 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F2D0896214BF4A6D001F2212 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2D0896314BF4A6D001F2212 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		F2D0897414BF4A6E001F2212 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2D0897514BF4A6E001F2212 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2D0897A14BF4A6E001F2212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2D0897B14BF4A6E001F2212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2D0897D14BF4A6E001F2212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoonLander/MoonLander-Prefix.pch";
+				INFOPLIST_FILE = "MoonLander/MoonLander-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F2D0897E14BF4A6E001F2212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoonLander/MoonLander-Prefix.pch";
+				INFOPLIST_FILE = "MoonLander/MoonLander-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F2D0898014BF4A6E001F2212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MoonLander.app/MoonLander";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoonLander/MoonLander-Prefix.pch";
+				INFOPLIST_FILE = "MoonLanderTests/MoonLanderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F2D0898114BF4A6E001F2212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MoonLander.app/MoonLander";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoonLander/MoonLander-Prefix.pch";
+				INFOPLIST_FILE = "MoonLanderTests/MoonLanderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2D0894314BF4A6D001F2212 /* Build configuration list for PBXProject "MoonLander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D0897A14BF4A6E001F2212 /* Debug */,
+				F2D0897B14BF4A6E001F2212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2D0897C14BF4A6E001F2212 /* Build configuration list for PBXNativeTarget "MoonLander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D0897D14BF4A6E001F2212 /* Debug */,
+				F2D0897E14BF4A6E001F2212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2D0897F14BF4A6E001F2212 /* Build configuration list for PBXNativeTarget "MoonLanderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D0898014BF4A6E001F2212 /* Debug */,
+				F2D0898114BF4A6E001F2212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2D0894014BF4A6D001F2212 /* Project object */;
+}
